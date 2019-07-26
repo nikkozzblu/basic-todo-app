@@ -1,0 +1,28 @@
+.TaskItem {
+    text-align: left;
+}
+
+.TaskItem a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.TaskItem .done {
+    text-decoration: line-through;
+}
+
+.TaskItem .done a {
+    font-weight: bold;
+    color: green;
+    pointer-events: none;
+}
+
+.TaskAdd .form-control {
+    flex-grow: 100;
+    width: auto;
+}
+
+.Tasks .loading {
+    height: 38px;
+    padding:11px;
+}
