@@ -16,3 +16,10 @@ And start the app
 > npm start
 
 That will open a window in your default browser
+
+
+## Configuration
+
+The API is expected to be running on http://localhost:5000
+
+You can edit this in the file `/src/services/config.js`
